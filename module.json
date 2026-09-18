@@ -30,6 +30,6 @@
   "styles": [
     "styles/mystic.css"
   ],
-  "manifest": "",
-  "download": ""
+  "manifest": "https://raw.githubusercontent.com/bagfullofdice/sw-mystic-psionics/main/module.json",
+  "download": "https://raw.githubusercontent.com/bagfullofdice/sw-mystic-psionics/main/dist/sw-mystic-psionics-v0.1.0.zip"
 }
