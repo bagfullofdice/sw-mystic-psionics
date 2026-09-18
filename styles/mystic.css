@@ -35,7 +35,7 @@
 }
 
 .swmp-disabled {
-  opacity: 0.45;
+  display: none;
 }
 
 .swmp-grid {
