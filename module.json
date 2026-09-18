@@ -1,8 +1,8 @@
 {
   "id": "sw-mystic-psionics",
   "title": "S&W Mystic Psionics",
-  "description": "Adds Mystic psionics and PSP tracking to Swords & Wizardry character sheets.",
-  "version": "0.1.0",
+  "description": "Adds Mystic psionics, PSP tracking, class features, and psionic power compendiums to Swords & Wizardry character sheets.",
+  "version": "0.2.0",
   "authors": [
     {
       "name": "Phil Carr / ChatGPT"
@@ -10,7 +10,7 @@
   ],
   "compatibility": {
     "minimum": "14",
-    "verified": "14"
+    "verified": "14.367"
   },
   "relationships": {
     "systems": [
@@ -24,6 +24,30 @@
       }
     ]
   },
+  "packs": [
+    {
+      "name": "mystic-class-features",
+      "label": "Mystic Class Features",
+      "path": "packs/mystic-class-features",
+      "type": "Item",
+      "system": "swords-wizardry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mystic-powers",
+      "label": "Mystic Psionic Powers",
+      "path": "packs/mystic-powers",
+      "type": "Item",
+      "system": "swords-wizardry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
   "esmodules": [
     "scripts/main.js"
   ],
@@ -31,5 +55,5 @@
     "styles/mystic.css"
   ],
   "manifest": "https://raw.githubusercontent.com/bagfullofdice/sw-mystic-psionics/main/module.json",
-  "download": "https://raw.githubusercontent.com/bagfullofdice/sw-mystic-psionics/main/dist/sw-mystic-psionics-v0.1.0.zip"
+  "download": "https://raw.githubusercontent.com/bagfullofdice/sw-mystic-psionics/main/dist/sw-mystic-psionics-v0.2.0.zip"
 }
