@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import srypto from "node:crypto";
+import * as crypto from "node:crypto";
 
 const MODULE_ID = "sw-mystic-psionics";
 const OUT = "build";
