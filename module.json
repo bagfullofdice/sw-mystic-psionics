@@ -1,0 +1,35 @@
+{
+  "id": "sw-mystic-psionics",
+  "title": "S&W Mystic Psionics",
+  "description": "Adds Mystic psionics and PSP tracking to Swords & Wizardry character sheets.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Phil Carr / ChatGPT"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swords-wizardry",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.2.0",
+          "verified": "4.2.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/mystic.css"
+  ],
+  "manifest": "",
+  "download": ""
+}
